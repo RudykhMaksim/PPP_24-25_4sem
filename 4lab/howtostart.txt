@@ -1,9 +1,0 @@
-pip install -r requirements.txt
-установить виртуальное окружение
-alembic upgrade head - применение миграции
-app.db или уже есть, или создалось вновь
-docker run -d --name redis -p 6379:6379 redis:latest
-celery -A app.celery.tasks worker --loglevel=info  - должен быть ready
-запустить main
-http://localhost:8000/docs
-в терминале python client.py
